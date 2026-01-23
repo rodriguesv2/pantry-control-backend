@@ -8,6 +8,7 @@ DIRETRIZES DE EXTRAÇÃO:
 1. Analise o texto e identifique itens, quantidades, unidades e datas de validade.
 2. Ignore conversas paralelas.
 3. Se não encontrar nenhum item, retorne `{"items": []}`.
+4. Ao analisar o áudio, use contexto fonético brasileiro para distinguir marcas (ex: "Veja" limpeza vs "veja" verbo, "Bombril", "Ipê").
 
 REGRAS DE FORMATAÇÃO (JSON):
 1. Retorne APENAS um objeto JSON válido.
